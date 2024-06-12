@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:OTP_WINDOW"
       mc:Ignorable="d" 
       d:DesignHeight="600" d:DesignWidth="825"
-      Title="Chap2">
+      Title="Chap2_2">
 
     <Grid Background="White">
         <!-- Grid의 행 정의 -->
@@ -28,8 +28,7 @@
 
                 <Image Source="Images/OTP_공개와고지방법2.png" 
                         Width="310" Height="150" 
-                       HorizontalAlignment="Center"
-                       Stretch="Uniform" />
+                       Style="{StaticResource ImageStyle}"/>
 
                 <TextBlock Style="{StaticResource BodyTextBlockStyle}"
                        Text=" - 오픈소스 라이선스 사본, 소스코드, 수정내용, 3rd Party 라이선스 사본, 파생저작물 코드"/>

@@ -28,7 +28,7 @@
 
                 <TextBlock Style="{StaticResource SubtitleBlockStyle}"
                            Text="1. SW 공급망 구성요소"/>
-                <Image Source="/Images/오픈소스공급망구성요소추세.png" Width="780" Margin="0,10,0,10" />
+                <Image Source="/Images/오픈소스공급망구성요소추세.png" Style="{StaticResource ImageStyle}" />
 
 
 
@@ -68,7 +68,7 @@
                         <Run Text="제로트러스트"/>
                     </Hyperlink>
                 </TextBlock>
-                <Image Source="/Images/제로트러스트.png" />
+                <Image Source="/Images/제로트러스트.png" Style="{StaticResource ImageStyle}"/>
                 <TextBlock Style="{StaticResource BodyTextBlockStyle}"
                            Text="제로트러스트 보안 아키텍처는 신뢰는 취약점으로 인식, 모든 구성요소는 독립적으로 신뢰성을 확보해야 한다."/>
 
@@ -108,9 +108,10 @@
                            Grid.Row="1" Grid.Column="2" 
                            Width="200" Height="200" Margin="10"/>
                 </Grid>
+                
+                
                 <TextBlock Style="{StaticResource BodyTextBlockStyle}"
                            Text="SW Supply Chain Security는 SW 개발부터 배포까지 모든 프로세스의 보안과 무결성 보장 조치 의미"/>
-
 
 
                 <TextBlock Style="{StaticResource SubtitleBlockStyle}"

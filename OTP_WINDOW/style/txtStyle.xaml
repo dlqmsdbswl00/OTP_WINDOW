@@ -12,7 +12,7 @@
     <!--대제목 스타일-->
     <Style x:Key="MainTitleBlockStyle" TargetType="TextBlock">
         <Setter Property="HorizontalAlignment" Value="Left"/>
-        <Setter Property="FontSize" Value="24"/>
+        <Setter Property="FontSize" Value="27"/>
         <Setter Property="Foreground" Value="{StaticResource MainBlueBrush}"/>
         <Setter Property="Margin" Value="0,30,0,10"/>
         <Setter Property="FontWeight" Value="Bold"/>
@@ -22,7 +22,7 @@
     <!--중제목 스타일-->
     <Style x:Key="SubtitleBlockStyle" TargetType="TextBlock">
         <Setter Property="HorizontalAlignment" Value="Left"/>
-        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="FontSize" Value="25"/>
         <Setter Property="Foreground" Value="{StaticResource LightBlueBrush}"/>
         <Setter Property="Margin" Value="20,20,0,10"/>
         <Setter Property="FontWeight" Value="Bold"/>
@@ -32,7 +32,7 @@
     <!--소제목 스타일-->
     <Style x:Key="Sub-subtitleBlockStyle" TargetType="TextBlock">
         <Setter Property="HorizontalAlignment" Value="Left"/>
-        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="FontSize" Value="21"/>
         <Setter Property="Foreground" Value="Black"/>
         <Setter Property="Margin" Value="15,20,0,10"/>
         <Setter Property="FontWeight" Value="Bold"/>

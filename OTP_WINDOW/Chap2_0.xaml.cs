@@ -33,7 +33,7 @@ namespace OTP_WINDOW
 
         private void NextButton_Click(object sender, RoutedEventArgs e)
         {
-            Chap2_0 newPage = new Chap2_0();
+            Chap2_1 newPage = new Chap2_1();
             NavigationService.Navigate(newPage);
         }
     }
