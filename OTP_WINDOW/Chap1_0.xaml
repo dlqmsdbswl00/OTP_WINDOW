@@ -32,7 +32,7 @@
                        Text="- 소스코드를 알면 그 프로그램, 소프트웨어가 어떻게 구성되어 있는지 알 수 있다,"/>
                 <TextBlock Style="{StaticResource BodyTextBlockStyle}"
                        Text="  또한 이것을 기초하여 변형, 응용이 가능하다."/>
-
+				
 
                 <TextBlock Style="{StaticResource MainTitleBlockStyle}">
                     <Hyperlink NavigateUri="https://terms.naver.com/entry.naver?docId=3480349&amp;cid=58439&amp;categoryId=58439"
