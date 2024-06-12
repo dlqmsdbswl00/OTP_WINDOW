@@ -16,25 +16,13 @@ using System.Windows.Shapes;
 namespace OTP_WINDOW
 {
     /// <summary>
-    /// Chap1_2.xaml에 대한 상호 작용 논리
+    /// Chap2_2.xaml에 대한 상호 작용 논리
     /// </summary>
-    public partial class Chap1_2 : Page
+    public partial class Chap2_2 : Page
     {
-        public Chap1_2()
+        public Chap2_2()
         {
             InitializeComponent();
-        }
-
-        private void PreviousButton_Click(object sender, RoutedEventArgs e)
-        {
-            Chap1_1 newPage = new Chap1_1();
-            NavigationService.Navigate(newPage);
-        }
-
-        private void NextButton_Click(object sender, RoutedEventArgs e)
-        {
-            Chap1_3 newPage = new Chap1_3();
-            NavigationService.Navigate(newPage);
         }
     }
 }
