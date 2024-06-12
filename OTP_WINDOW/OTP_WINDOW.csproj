@@ -85,6 +85,9 @@
     <Compile Include="Chap2_5.xaml.cs">
       <DependentUpon>Chap2_5.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Chap3.xaml.cs">
+      <DependentUpon>Chap3.xaml</DependentUpon>
+    </Compile>
     <Compile Include="IntroPage.xaml.cs">
       <DependentUpon>IntroPage.xaml</DependentUpon>
     </Compile>
@@ -128,6 +131,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Chap2_5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chap3.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
