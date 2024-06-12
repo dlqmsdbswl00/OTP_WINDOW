@@ -23,7 +23,7 @@
                 <TextBlock Style="{StaticResource SubtitleBlockStyle}"
                            Text="4. 오픈소스 라이선스 의무사항의 충돌 : 양립성" />
                 <TextBlock Style="{StaticResource BodyTextBlockStyle}"
-                           Text="라이선스 준수 의무 사항이 상충하는 양립성 존재의 경우 분리 설계, 다른 오픈소스로 교체 및 삭제를 통해 해결"/>
+                           Text="라이선스 준수 의무 사항이 상충하는 양립성 존재의 경우 분리 설계, &#10;다른 오픈소스로 교체 및 삭제를 통해 해결"/>
  
                 <TextBlock Style="{StaticResource Sub-subtitleBlockStyle}"
                            Text=" (1) 라이선스 양립성 "/>
@@ -32,9 +32,7 @@
                            Text="   01. 오픈소스 라이선스의 양립성(Capability)이란?" />
  
                 <TextBlock Style="{StaticResource BodyTextBlockStyle}"
-                           Text="       둘 이상의 오픈소SW의 소스코드를 사용하여 개발할 경우 각 오픈소스SW의 라이선스 요구사항" />
-                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
-                           Text="       서로 상충되는 가의 문제"/>
+                           Text="       둘 이상의 오픈소SW의 소스코드를 사용하여 개발할 경우 각 오픈소스SW의 라이선스 요구사항&#10;       서로 상충되는 가의 문제"/>
                 <TextBlock Style="{StaticResource BodyTextBlockStyle}"
                            Text="       이 때, 라이선스 요구사항이 서로 상충할 때 라이선스 충돌이라 일컫음"/>
  
@@ -74,11 +72,9 @@
                            Text="           - 라이선스 충돌이 발생하지 않는 다른 라이선스 SW로의 대체 "/>
 
 
-
-
-
-
-
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}" 
+                           Foreground="Gray" HorizontalAlignment="Center"
+                           Text="다음 버튼을 눌러 다음 차례로 이동하세요"/>
 
             </StackPanel>
         </ScrollViewer>

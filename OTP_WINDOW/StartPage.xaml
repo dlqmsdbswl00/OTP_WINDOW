@@ -10,7 +10,7 @@
 
     <Grid Background="White" Margin="0,0,0,0">
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20" Height="500" Width="725">
-            <TextBlock Text="Open Source Teaching Program (OTP)에 오신 것을 환영합니다!"
+            <TextBlock Text="Open Source Teaching Program&#10;(OTP)에 오신 것을 환영합니다!"
                        Style="{StaticResource MainTitleBlockStyle}"/>
             <TextBlock Style="{StaticResource BodyTextBlockStyle}"
                        Text="OTP는 오픈 소스 라이선스에 대해 가르치는 교육 플랫폼입니다. &#10;OTP를 통해 다양한 오픈 소스 라이선스, 그 특징 및&#10;소프트웨어 개발에서의 활용 방법에 대해 배울 수 있습니다.&#10;OTP는 누구에게나 오픈 소스 라이선스의 세계를 탐험하는 데 유용한 통찰력을 제공합니다."/>
