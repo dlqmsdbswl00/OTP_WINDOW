@@ -27,7 +27,7 @@ namespace OTP_WINDOW
 
         private void PreviousButton_Click(object sender, RoutedEventArgs e)
         {
-            Chap2 newPage = new Chap2();
+            Chap2_0 newPage = new Chap2_0();
             NavigationService.Navigate(newPage);
         }
 

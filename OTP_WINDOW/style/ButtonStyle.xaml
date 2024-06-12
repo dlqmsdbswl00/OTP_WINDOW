@@ -8,15 +8,14 @@
     <SolidColorBrush x:Key="MainBlueBrush" Color="{StaticResource MainBlueColor}"/>
     <SolidColorBrush x:Key="LightBlueBrush" Color="{StaticResource LightBlueColor}"/>
     <SolidColorBrush x:Key="PrimaryTextColor" Color="#000000"/>
-
     <SolidColorBrush x:Key="ButtonMouseOverColor" Color="#0026CA"/>
-
-    <SolidColorBrush x:Key="ButtonPressedColor" Color="#7A7CFF"/>
 
     <!--대제목 스타일-->
     <Style x:Key="OTPButtonStyle" TargetType="Button">
         <Setter Property="Background" Value="White"/>
         <Setter Property="Foreground" Value="{DynamicResource PrimaryTextColor}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource MainBlueBrush}"/>
+        <Setter Property="BorderThickness" Value=""/>
         <Setter Property="FontWeight" Value="Bold"/>
         <Setter Property="Padding" Value="10, 5, 10, 5"/>
         <Setter Property="Margin" Value="10"/>
@@ -28,6 +27,7 @@
                     <Border x:Name="btnBorder" CornerRadius="20"
                             Background="{TemplateBinding Background}"
                             BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
                             SnapsToDevicePixels="True"
                             Padding="{TemplateBinding Padding}">
                         <ContentPresenter x:Name="ContentPresenter" Focusable="False"
@@ -43,10 +43,9 @@
                                     Value="{DynamicResource MainBlueBrush}"/>
                         </Trigger>
                         <Trigger Property="IsPressed" Value="True">
-                                <Setter TargetName="btnBorder" Property="Background"
+                            <Setter TargetName="btnBorder" Property="Background"
                                     Value="#A9D0F5"/>
                         </Trigger>
-                        
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
             </Setter.Value>
