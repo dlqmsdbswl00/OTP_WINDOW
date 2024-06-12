@@ -52,7 +52,7 @@ namespace OTP_WINDOW
         private void Chapter3Button_Click(object sender, RoutedEventArgs e)
         {
             // Chapter 3 버튼 클릭 시 동작 정의
-            //MainFrame.Navigate(new Chap3());
+            MainFrame.Navigate(new Chap3());
         }
 
         private void Chapter4Button_Click(object sender, RoutedEventArgs e)

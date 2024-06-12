@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:OTP_WINDOW"
       mc:Ignorable="d" 
       d:DesignHeight="600" d:DesignWidth="825"
-      Title="Chap2">
+      Title="Chap2_4">
 
     <Grid Background="White">
         <!-- Grid의 행 정의 -->

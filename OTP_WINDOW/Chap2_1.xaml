@@ -18,8 +18,8 @@
         <!-- ScrollViewer가 포함된 첫 번째 행 -->
         <ScrollViewer Grid.Row="0" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
             <StackPanel Margin="20">
-                <TextBlock Text="오픈소스 라이선스 패밀리와 의무 준수 사항" 
-                       Foreground="{StaticResource MainBlueBrush}" FontSize="24" FontWeight="Bold" Margin="0,0,0,20"/>
+                <TextBlock Text="오픈소스 라이선스 패밀리와 의무 준수 사항"
+                           Style="{StaticResource MainTitleBlockStyle}"/>
                 <TextBlock Style="{StaticResource SubtitleBlockStyle}"
                            Text="2. License Family 주요 라이선스" />
               

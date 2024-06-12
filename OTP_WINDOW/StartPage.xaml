@@ -16,7 +16,7 @@
                        Text="OTP는 오픈 소스 라이선스에 대해 가르치는 교육 플랫폼입니다. &#10;OTP를 통해 다양한 오픈 소스 라이선스, 그 특징 및&#10;소프트웨어 개발에서의 활용 방법에 대해 배울 수 있습니다.&#10;OTP는 누구에게나 오픈 소스 라이선스의 세계를 탐험하는 데 유용한 통찰력을 제공합니다."/>
             <TextBlock Style="{StaticResource BodyTextBlockStyle}"
                        Text="오늘 OTP와 함께 오픈 소스 라이선스의 세계를 탐험해보세요!"/>
-            <Image Source="/Images/mainImage.png" Width="150" Height="150" VerticalAlignment="Top"/>
+            <Image Source="/Images/Teacher.png" Width="150" Height="150" VerticalAlignment="Top"/>
         
             <TextBlock Style="{StaticResource BodyTextBlockStyle}" 
                            Foreground="Gray" HorizontalAlignment="Center"

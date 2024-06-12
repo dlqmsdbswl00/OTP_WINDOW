@@ -19,7 +19,7 @@
         <ScrollViewer Grid.Row="0" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
             <StackPanel Margin="20">
                 <TextBlock Text="오픈소스 라이선스 정의 및 준수 필요성" 
-                       Foreground="{StaticResource MainBlueBrush}" FontSize="24" FontWeight="Bold" Margin="0,0,0,20"/>
+                       Style="{StaticResource MainTitleBlockStyle}"/>
                 <TextBlock Style="{StaticResource SubtitleBlockStyle}"
                            Text="1. 오픈소스 라이선스란?" />
 
