@@ -24,5 +24,17 @@ namespace OTP_WINDOW
         {
             InitializeComponent();
         }
+
+        private void PreviousButton_Click(object sender, RoutedEventArgs e)
+        {
+            Chap2_2 newPage = new Chap2_2();
+            NavigationService.Navigate(newPage);
+        }
+
+        private void NextButton_Click(object sender, RoutedEventArgs e)
+        {
+            Chap2_4 newPage = new Chap2_4();
+            NavigationService.Navigate(newPage);
+        }
     }
 }
