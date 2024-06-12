@@ -27,6 +27,8 @@ namespace OTP_WINDOW
 
         private void PreviousButton_Click(object sender, RoutedEventArgs e)
         {
+            StartPage newPage = new StartPage();
+            NavigationService.Navigate(newPage);
         }
 
         private void NextButton_Click(object sender, RoutedEventArgs e)
